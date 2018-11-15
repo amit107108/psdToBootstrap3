@@ -1,0 +1,573 @@
+body {
+    margin: 0;
+    padding: 0;
+    height: 100%;
+    width: 100%;
+}
+
+/*==============================================
+===============   TOP section Start ==================
+===============================================*/
+#top {
+    font-size: 12px;
+    padding: 15px 0;
+    color: #989898;
+}
+.top-icon {
+    font-size: 15px;
+    color: #33CCCC;
+}
+.top-icon i {
+    padding: 0 10px;
+}
+.part-1 {
+    margin-right: 25px;
+}
+.part-1 img {
+    padding: 0 10px 0 0;
+    height: 12px;
+}
+.part-1 p {
+
+}
+.part-2 {
+    margin-left: 25px;
+}
+.part-2 i {
+    padding: 0 10px 0 0;
+    height: 12px;
+}
+.part-2 p {
+
+}
+/*==============================================
+===============   TOP section end ==================
+===============================================*/
+
+
+
+/*==============================================
+===============   header section Start ==================
+===============================================*/
+header {
+    background-color: #33CCCC;
+    padding: 10px 0;
+}
+.navbar {
+    padding-left: 0;
+    padding-right: 0;
+}
+.navbar-brand {
+    padding: 0 0;
+}
+.nav-link {
+    color: #fff;
+    font-size: 18px;
+    margin-left: 20px;
+}
+.fa-bars {
+    color: #fff;
+}
+/*==============================================
+===============   header section end ==================
+===============================================*/
+
+
+
+
+/*==============================================
+===============   home section Start ==================
+===============================================*/
+#home {
+    height: 90vh;
+    color: #fff;
+    background-size: cover;
+    background-repeat: no-repeat;
+    position: relative;
+}
+#home h4 {
+    font-size: 30px;
+    font-weight: bold;
+}
+#home h1 {
+    font-size: 70px;
+    font-weight: bold;
+    text-transform: uppercase;
+    margin-top: 20px;
+}
+#home p {
+    font-size: 20px;
+    font-weight: 400;
+    margin-top: 25px;
+}
+.btn-grp a {
+    margin-right: 10px;
+    margin-top: 70px;
+}
+.btn1 {
+    background-color: #33CCCC;
+    color: #fff;
+    text-transform: uppercase;
+    font-size: 19px;
+    font-weight: 500;
+    border-radius: 2px;
+}
+.btn2 {
+    background-color: transparent;
+    border: 1px solid #fff;
+    margin-right: 10px;
+}
+/*==============================================
+===============   home section end ==================
+===============================================*/
+
+
+
+
+/*==============================================
+===============   about section Start ==================
+===============================================*/
+#about {
+    padding: 70px 0;
+}
+.about-header h1 {
+    font-size: 35px;
+    text-transform: uppercase;
+    font-weight: bold;
+    color: #636767;
+}
+.about-header h1 span {
+    color: #1cb0b0;
+    position: relative;
+}
+
+.underline {
+    height: 8px;
+    width: 118px;
+    margin: 15px 0;
+    background-color: #1cb0b0;
+}
+
+.about-text p {
+    text-transform: uppercase;
+    font-size: 15px;
+    font-weight: 500;
+    line-height: 30px;
+    color: #6f6e6f;
+    margin-top: 40px;
+    letter-spacing: -1px;
+}
+.abt-btn {
+    margin-top: 90px;
+    margin-bottom: 20px;
+    font-weight: bold;
+}
+#about img {
+}
+.dark {
+    background-color: #4dfbfb;
+}
+
+/*==============================================
+===============   about section end ==================
+===============================================*/
+
+
+
+/*==============================================
+===============   middle section start ==================
+===============================================*/
+#middle {
+    background-color: #33CCCC;
+    padding: 70px 0;
+}
+#middle p {
+    padding: 0;
+    margin: 0;
+    font-size: 24px;
+    color: #fff;
+}
+#middle p span {
+    font-size: 35px;
+    font-weight: bold;
+}
+.middle-btn {
+    border: -25px;
+}
+/*==============================================
+===============   middle section end ==================
+===============================================*/
+
+
+
+
+
+/*==============================================
+===============   service section stsrt ==================
+===============================================*/
+#service {
+    padding: 50px 0;
+}
+#service h4 {
+    font-size: 20px;
+    font-weight: bold;
+    text-transform: uppercase;
+    color: #444344;
+}
+#service span {
+    color:  #33CCCC;
+}
+#service p {
+    color: #7b7a7b;
+    line-height: 28px;
+}
+.underline-center {
+    margin: 0 auto;
+    margin-top: 20px;
+    margin-bottom: 20px;
+}
+
+.service-option {
+    margin-top: 50px;
+}
+.service-option h4 {
+    margin-top: 35px;
+}
+.service-option  p{
+    margin-bottom: 0;
+    margin-top: 40px;
+    color: #7b7a7b;
+    line-height: 28px;
+}
+/*==============================================
+===============   service section end ==================
+===============================================*/
+
+
+/*==============================================
+===============   portfolio section start ==================
+===============================================*/
+#portfolio {
+    padding: 70px 0;
+    background-color: #f2f2f2;
+}
+#portfolio h4 {
+    font-size: 30px;
+    font-weight: bold;
+    text-transform: uppercase;
+    color: #444344;
+}
+#portfolio span {
+    color:  #33CCCC;
+}
+#portfolio p {
+    color: #7b7a7b;
+    line-height: 28px;
+}
+.portfolio-option a {
+    font-size: 24px;
+    font-weight: bold;
+    text-transform: uppercase;
+    margin: 0 10px;
+    color: #444344;
+    text-decoration: none;
+    padding-bottom: 10px;
+}
+.portfolio-option a:hover {
+    padding-bottom: 10px;
+    border-bottom: 5px solid #33CCCC;
+    color: #33CCCC;
+}
+.port-img {
+    margin: 30px 0 0 0;
+}
+
+/*==============================================
+===============   portfolio section end ==================
+===============================================*/
+
+
+
+
+/*==============================================
+===============   skill section start ==================
+===============================================*/
+#skill {
+    padding: 70px 0;
+}
+.whatwedo {
+    margin-bottom: 30px;
+}
+.whatwedo h4{
+    font-size: 30px;
+    font-weight: bold;
+    color: #444344;
+    text-transform: uppercase;
+}
+.whatwedo span {
+    color:  #33CCCC;
+}
+.skill-underline {
+    width: 90px;
+}
+.whatwedo p {
+    padding: 40px 0;
+    font-size: 18px;
+    color: #7b7a7b;
+    line-height: 25px;
+}
+#skill-point {
+    padding: 0 0 20px 0;
+}
+#skill-point i {
+    font-size: 20px;
+    color: #33CCCC;
+    margin-right: 15px;
+}
+#skill-point p {
+    font-size: 20px;
+    font-size: 18px;
+    color: #7b7a7b;
+    line-height: 25px;
+    margin: 0
+}
+.whatwedo-underline {
+    width: 65px;
+}
+#skill img {
+    margin-top: 30px;
+    width: 65%;
+}
+.rating-bar-text {
+    margin-top: 15px;
+}
+.rating-bar-text p{
+    display: inline-block;
+    margin: 10px 0 5px 0;
+    font-size: 18px;
+    font-weight: 500;
+    color: #a09e9e;
+}
+.percent80 {
+    float: right;
+    position: absolute;
+    right: 78px;
+}
+.percent60 {
+    float: right;
+    position: absolute;
+    right: 166px;
+}
+.percent85 {
+    float: right;
+    position: absolute;
+    right: 60px;
+}
+.percent75 {
+    float: right;
+    position: absolute;
+    right: 95px;
+}
+.progress-bar {
+    background-color: #1cb9c8;
+}
+
+/*==============================================
+===============   skill section end ==================
+===============================================*/
+
+
+/*==============================================
+===============   client section start ==================
+===============================================*/
+#client {
+    padding: 50px 0;
+}
+#client h4 {
+    font-size: 30px;
+    color: #444344;
+    text-transform: uppercase;
+}
+#client span {
+    color:  #33CCCC;
+}
+#client p {
+    padding: 30px 0;
+    color: #a09e9e;
+    font-size: 18px;
+    line-height: 25px;
+}
+.clinet-info {
+    border: 1px solid #efeeee;
+    margin-top: 61px;
+}
+.clinet-img {
+    position: relative;
+    top: -62px;
+}
+.clinet-text {
+    top: -40px;
+    position: relative;
+}
+.clinet-text h3 {
+    color:  #33CCCC;
+    font-weight: normal;
+    text-transform: uppercase;
+}
+.clinet-text p {
+    margin: 0;
+    padding: 0!important;
+    margin-top: 30px;
+    line-height: 30px;
+    font-size: 20px!important;
+    color: #878484!important;
+}
+/*==============================================
+===============   client section ends ==================
+===============================================*/
+
+
+
+/*==============================================
+===============   contact us section start ==================
+===============================================*/
+.contact {
+    background-color: #fcfcfc;
+}
+.contact h4 {
+    font-weight: bold;
+}
+.contat-und {
+    width: 80px;
+}
+.first-input input {
+    width: 45%;
+    background-color: transparent;
+    border-style: none;
+    border: 1px solid #efeeee;
+    padding: 5px 10px;
+}
+.first-input input::placeholder {
+    color: #e1e0e0;
+    text-transform: capitalize;
+    font-size: 18px;
+    font-weight: 400;
+}
+.first-input textarea{
+    width: 100%;
+    margin-top: 20px;
+    border: 1px solid #efeeee;
+    background-color: transparent;
+    height: 150px;
+}
+.first-input textarea::placeholder {
+    color: #e1e0e0;
+    text-transform: capitalize;
+    font-size: 18px;
+    font-weight: 400;
+    padding-left: 10px;
+}
+.contat-1 {
+    margin-bottom: 20px;
+    margin-top: 40px;
+}
+.contat-1 img {
+    height: 20px;
+    margin-right: 20px;
+}
+.contat-2 {
+    margin-bottom: 20px;
+    margin-top: 40px;
+}
+.contat-2 i {
+    font-size: 25px;
+    margin-right: 20px;
+}
+.contat-btn {
+    margin-top: 25px;
+    font-weight: lighter;
+    padding: 3px 25px;
+}
+.contat-icon {
+    margin-top: 60px;
+    font-size: 30px;
+}
+.side-2 {
+    margin-left: 50px;
+}
+.side-2 h3 {
+    font-size: 25px;
+    font-weight: 500;
+}
+/*==============================================
+===============   contact us section ends ==================
+===============================================*/
+
+@media (max-width: 767.8px) {
+    .side-2 {
+        margin-top: 20px;
+        text-align: center;
+        margin-left: 0;
+    }
+    .top-1 {
+        float: none!important;
+        text-align: center!important;
+    }
+    .top-2 {
+        float: none!important;
+        text-align: center!important;
+        margin-top: 25px;
+    }
+
+}
+@media (max-width:320px) {
+    .percent80{
+        right: 45px;
+    }
+    .percent60{
+        right: 100px;
+    }
+    .percent75{
+        right: 60px;
+    }
+    .percent85{
+        right: 30px;
+    }
+}
+
+@media (max-width: 375px) {
+    .part-2 {
+        margin-left: 0;
+    }
+    .top-2 {
+        margin-top: 15px;
+    }
+}
+
+@media (max-width:991.8px) {
+    .percent80{
+        right: 45px;
+    }
+    .percent60{
+        right: 90px;
+    }
+    .percent75{
+        right: 60px;
+    }
+    .percent85{
+        right: 30px;
+    }
+    .contat-icon {
+        margin-top: 30px;
+    }
+    #home h1 {
+        font-size: 50px;
+    }
+    .abt-btn {
+        margin-top: 30px;
+        margin-bottom: 30px;
+    }
+    .abt-2 {
+        text-align: center;
+    }
+}
